@@ -37,7 +37,10 @@ public class Average {
                     maxIndex = k;
                 }
             }
-            
+            int temp = data[maxIndex];
+            data[maxIndex] = data[i];
+            data[i] = temp;
+
         }
 
     }
