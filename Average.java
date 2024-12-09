@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * This class calculates and sorts the average of the scores
+ *
+ * @author Aswinth Sinnathamby
+ * @version 1.0
+ */
+
 public class Average {
     // Instance variables
     private int[] data;
